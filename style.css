@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Cedarville+Cursive&family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Cedarville+Cursive&family=Dancing+Script&family=Exo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Cedarville+Cursive&family=Dancing+Script&family=Exo:wght@400;700&display=swap');
+
+h1 {
+  font-family: fantasy;
+  color: rebeccapurple;
+  font-size: 50px;
+}
+ul {
+  list-style: none;
+  font-family: 'Exo';
+}
+ol {
+  font-weight: 700;
+  list-style: decimal inside;
+  font-family: 'Exo';
+}
+li {
+  border-radius: 10px;
+  border: 1px solid magenta;
+  text-align: center;
+  color: blue;
+  background-color: lightpink;
+  padding-left: 30px;
+}
+img {
+  height: 300px;
+}
+body {
+  background-color: lightsteelblue;
+  font-family: sans-serif;
+}
+h3 {
+  font-family: "Dancing Script";
+  font-size: 30px;
+  text-decoration: underline;
+color: darkblue;
+}
+p {
+  padding-top: 20px;
+  padding-bottom: 20;
+  font-family: 'Caveat';
+  font-size: 25px;
+  color: darkmagenta;
+}
+a {
+  font-family: 'Exo';
+  font-weight: 700;
+  color: darkred;
+}
+h2 {
+  font-family: 'Dancing Script';
+  color: darkblue;
+}
+div {
+  font-family: 'Exo';
+}
