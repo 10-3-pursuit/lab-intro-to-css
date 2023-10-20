@@ -4,11 +4,22 @@ h1 {
     font-family: fantasy;
     color: purple;
 }
-ol {
+/* ol {
     list-style-type: none;
     text-align: center;
-}
-ul {
+} */
+/* ul {
     list-style-type: none;
+    text-align: center;
+} */
+li {
+    border: 1px solid red;
+    list-style-type: none;
+    text-align: center;
+    color: blue;
+    background-color: lightpink;
+    border-radius: 25px;
+}
+.container {
     text-align: center;
 }
