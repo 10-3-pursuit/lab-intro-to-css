@@ -1,23 +1,46 @@
 body {
     font-family: sans-serif;
+    background-color: lightgreen;
 }
 
 h1 {
     font-family: fantasy;
     color: purple;
     font-size: 30px;
+    border: 2px solid;
+}
+
+h2 {
+    color: purple;
+    border: 2px solid;
 }
 
 h3 {
     text-decoration-line: underline;
+    color: yellow;
 }
 
 p {
+    font-size: 18px;
     padding: 20px 0px 20px 0px;
+    color: green;
 }
 
 img {
     height: 200px;
+    /* added auto scaling */
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 11%;
+
+}
+
+a {
+    font-size: 18px;
+    color: maroon;
 }
 
 ol {
