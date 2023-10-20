@@ -23,3 +23,9 @@ li {
 .container {
     text-align: center;
 }
+body {
+    font-family: sans-serif;
+}
+h3 {
+    text-decoration: underline;
+}
