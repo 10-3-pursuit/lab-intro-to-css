@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Courgette&family=Orbitron&display=swap');
+
+h1 {
+    font-family: Courgette;
+    color: purple;
+    font-size: 40px;
+    padding-left: 40px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 30px;
+}
+
+ol {
+    font-weight: 600;
+    padding-left: 30px;
+    list-style: inside;
+    list-style-type: decimal;
+    
+}
+
+li {
+    border: 1px solid red;
+    border-radius: 15px;
+    color: blue;
+    background-color: lightpink;
+    text-align: center;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Arvo';
+    font-size: 17px;
+}
+
+h2 {
+    font-family: orbitron;
+    background-color: lightslategray;
+    color: white;
+}
+img {
+    height: 200px;
+    border-radius: 20%;
+
+}
