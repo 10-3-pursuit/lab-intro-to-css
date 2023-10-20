@@ -1,0 +1,63 @@
+h1 {
+    font-family: fantasy;
+    color: purple;
+    font-size: 30px;
+    border-bottom: 2px solid black;
+}
+
+ol {
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+ul {
+    padding-left: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+li {
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 10px;
+    color: blue;
+    background-color: lightpink;
+    text-decoration: underline;
+}
+
+img {
+    padding-left: 880px;
+    
+    border: 1px solid black;
+    border-bottom: 2px solid black;
+}
+
+body {
+    font-family: sans-serif;
+    background-color:darkgrey;
+}
+
+h3 {
+    text-decoration: underline;
+    
+    
+}
+
+p {
+    padding: 20px 0px 20px 30px ;
+    border-bottom: 2px solid black;
+}
+
+
+/* TEN EXTRA ADDED:
+1. Changed background color to dark grey
+2. Black bottom border under all the paragraphs
+3. Padded the paragraphs to the left 30px
+4. Border around image
+5. Underlined each skill
+6. Bolded the Languages skills
+7. Capitalized github in list
+8. Capitalized all elements in an unordered list
+9. Bottom border for image
+10. Bottom border for h1
+*/
