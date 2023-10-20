@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+body{
+    background-color:black;
+    font-family: sans-serif;
+    color:aqua
+}
+
+img{
+    height:200px;
+    position: relative;
+    left: 600px;
+}
+#Kobe{
+    text-align: center;
+
+}
+p{
+    padding-top:20px;
+    padding-bottom: 20px;
+    color:orange
+}
+h1{
+    font-family: Cormorant Garamond;
+    font-size:30px;
+    color:aqua
+
+}
+h3{
+    text-decoration: underline red;
+    font-style: italic;
+    
+
+}
+
+ol{
+    list-style-type: none;
+    font-weight:bold;
+}
+
+li{ 
+    background-color:rosybrown; ;
+    color:blue;
+    border:1px solid purple;
+    border-radius:10px ;
+    text-align:center;
+}
+
+ul{
+    list-style-type:none;
+}
