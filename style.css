@@ -25,8 +25,14 @@ li {
 .container {
     text-align: center;
 }
+
+.smooth-image {
+    border-radius: 25px; /* You can adjust the radius value as needed */
+}
+
 body {
     font-family: sans-serif;
+    background: radial-gradient(circle, rgb(96, 248, 9),rgb(230, 8, 178));
 }
 h3 {
     text-decoration: underline;
