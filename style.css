@@ -13,4 +13,13 @@ ol {
 
 li {
     text-align: center;
+    border: 1px solid red;
+    border-radius: 30px;
+    background-color: lightpink;
+    color: blue;
+    
+}
+
+body {
+    font-family: sans-serif;
 }
