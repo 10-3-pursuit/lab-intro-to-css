@@ -1,0 +1,42 @@
+h1 {
+    font-family: fantasy;
+    color: purple;
+    font-size: 30px;
+}
+ol {
+    list-style-type: none;
+    
+}
+ul {
+    list-style-type: none;
+    
+}
+li {
+    border: 1px solid red;
+    border-radius: 10px;
+    text-align: center;
+    background-color: lightpink;
+    color: blue;
+    padding-left: 30px;
+}
+
+img {
+    height: 200px;
+}
+
+.container {
+    text-align: center;
+}
+body {
+    font-family: sans-serif;
+}
+h3 {
+    text-decoration: underline;
+}
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    color: rgb(6, 6, 20);
+}
