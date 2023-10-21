@@ -1,0 +1,16 @@
+h1 {
+    font-family: fantasy;
+    color: purple;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ol {
+    font-weight: bold;
+}
+
+li {
+    text-align: center;
+}
