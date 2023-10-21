@@ -1,43 +1,66 @@
 
 h1 {
-
-    font-family: fantasy;
-    font-size: 30px;
-    color: purple;
-}
-/* ol {
-    list-style-type: none;
+    font-family: 'JelleeBold'; /* fantasy font is ugly so used this font instead */
+    font-weight: normal;
+    font-style: normal; 
+    font-size: 30px; /* for the assignment it should be 30px but it looks so much nicer at 100px*/
+    color: rgb(94, 30, 75);
     text-align: center;
-} */
-/* ul {
-    list-style-type: none;
-    text-align: center;
-} */
-li {
-    border: 1px solid red;
-    list-style-type: none;
-    text-align: center;
-    color: blue;
-    background-color: lightpink;
+    background-image: url(./assets/watercolor-roses.jpeg); /* Added background to header */
+    background-size:auto; /* This property ensures the image covers the entire header element */
+    background-repeat: repeat; /* Prevents the image from repeating */
+    height: 100px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    filter:opacity(70%);
     border-radius: 25px;
-    padding-left: 30px;
 }
-.container {
-    text-align: center;
-}
-
-.smooth-image {
-    border-radius: 25px; /* You can adjust the radius value as needed */
-}
-
-body {
-    font-family: sans-serif;
-    background: radial-gradient(circle, rgb(96, 248, 9),rgb(230, 8, 178));
+h2 {
+    color: rgb(94, 30, 75);
 }
 h3 {
     text-decoration: underline;
 }
+body {
+    font-family: 'sans serif'; 
+    text-align: center;
+    color: rgb(235, 229, 230);
+    font-weight: normal;
+    background: radial-gradient(circle, rgb(220, 174, 182),rgb(31, 1, 31));
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-style: normal; 
+}
 p {
     padding-top: 20px;
     padding-bottom: 20px;
+}
+ol {
+    background-image: url(./assets/watercolor-roses.jpeg); /* Added this background image to ul and ol containing li elements instead of making background light pink per li element */
+    height: 200px;
+    filter: opacity(70%);
+    border-radius: 25px;
+}
+ul {
+    background-image: url(./assets/watercolor-roses.jpeg); /* Added this background image to ul and ol containing li elements instead of making background light pink per li element */
+    height: 200px;
+    filter: opacity(70%);
+    border-radius: 25px; /* instead of doing this to each li element I did it to all elements containing li tag because the aesthetic looks nicer imo */
+}
+li {
+    text-align: center;
+    list-style-type:none; /* none to remove bullet points or numbers*/
+    color:  rgb(94, 30, 75); /* I like this color better than blue */
+    /*border-radius: 25px;*/ /* for the assignment we needed to put this but preferably I'd add a nice background and smooth those edges instead */
+    /*padding-left: 30px;*/ /* for the lab this needed to be done, but preferably I think it'd look better without the padding */
+    padding-top: 25px;
+    padding-right: 30px; /* looked a little off center, so added padding to fix it */
+}
+.container { /* in html I put image in div and gave it a container attribute*/
+    filter:opacity(70%); /* Made image more transparent*/
+    text-align: center;
+}
+
+.smooth-image { /* in html added smooth-image class attribute to image tag*/
+    border-radius: 25px; /* You can adjust the radius value as needed */
 }
