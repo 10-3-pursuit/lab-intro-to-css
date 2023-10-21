@@ -1,6 +1,7 @@
 h1 {
     font-family: fantasy;
     color: purple;
+    font-size: 30px;
 }
 
 ul {
@@ -17,9 +18,19 @@ li {
     border-radius: 30px;
     background-color: lightpink;
     color: blue;
+    padding-left: 30px;
     
 }
 
 body {
     font-family: sans-serif;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
