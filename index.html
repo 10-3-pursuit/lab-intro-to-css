@@ -3,9 +3,14 @@
   <head>
     <meta charset="utf-8" />
     <title>CSS Intro</title>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/jellee-typeface" type="text/css"/>
+    <!-- Imported font used in style.css -->
+    <link rel="stylesheet" href="./style.css"/>
+    <!-- to import style.css code -->
+
   </head>
   <body>
-    <h1>Your Name Here</h1>
+    <h1>Juli</h1>
     <div>
       <p>
         This is a bunch of information about myself. I'm from here and there and
@@ -13,28 +18,35 @@
         working I'm busy doing this and that.
       </p>
     </div>
-
+    <div class="container">
     <img
-      src="https://www.breakthrough-pt.com/wp-content/uploads/2014/11/female-default-profile-photo.png"
-      alt=""
+      src="./assets/Juli_Sketch.jpg"
+      alt="Juli"
+      height="200px"
+      class="smooth-image"
     />
+    </div>
 
     <div>
       <h3>Here are some of my Skills!</h3>
+      <h3>Languages</h3>
       <ul>
-        <h3>Languages</h3>
         <li>JavaScript</li>
         <li>SQL</li>
         <li>HTML5</li>
         <li>CSS3</li>
       </ul>
 
-      <ol>
-        <h3>Libraries</h3>
+      <strong><h3>Libraries</h3></strong>
+        <!-- Originally Libraries was part of ol but removed it from ol parent to format page my own way -->
+      <ol>  
+        <!-- to change font-weight to bold for ol tag use strong tag -->
+        <strong>
         <li>React</li>
         <li>PostgreSQL</li>
         <li>Node</li>
         <li>Bootstrap</li>
+        </strong>
       </ol>
     </div>
 
@@ -49,14 +61,14 @@
 
     <h2>Contact Me</h2>
     <div>
-      Email me at:
-      <a href="mailto:hello@pursuit.org" target="_top">hello@pursuit.org</a>
+      <h3>Email me at:</h3>
+      <nav><a href="mailto:hello@pursuit.org" target="_top">hello@pursuit.org</a></nav>
     </div>
 
-    <ul>
+    <ul><nav>
       <li><a href="github.com">github link</a></li>
       <li><a href="linkedin.com">LinkedIn link</a></li>
-      <li><a href="angellist.com">Angel list link</a></li>
-    </ul>
+      <li><a href="angellist.com">Angel list link</a></li></nav>
+      </ul>
   </body>
 </html>
