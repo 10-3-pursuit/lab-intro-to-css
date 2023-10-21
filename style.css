@@ -1,0 +1,62 @@
+h1 {
+    font-family: Inconsolata, monospace;
+    color: #0ac266; 
+    font-size: 40px;
+}
+
+ul {
+    /* this removes bullet points from ul */
+    list-style-type: none;
+}
+
+ol {
+    font-weight: bold;
+}
+
+li {
+    text-align: center;
+    border: 1px solid #0ac266;
+    background-color: #a5e085;
+    padding-left: 30px;
+}
+
+img {
+    height: 200px;
+}
+
+body {
+    font: 1.3rem Inconsolata, monospace;
+    background-color: #000000;
+    background-image: radial-gradient(
+    rgba(0, 150, 0, 0.75), black 120%
+  );
+  /* text-shadow: 0 0 5px #C8C8C8; */
+   background: repeating-linear-gradient(
+    0deg,
+    rgba(black, 0.15),
+    rgba(black, 0.15) 1px,
+    transparent 1px,
+    transparent 2px
+  );
+}
+
+
+h3 {
+    text-decoration: underline;
+    color: #0ac266; 
+}
+
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #0ac266;
+}
+
+h2 {
+    border-style: double;
+    border: 5px transparent white;
+    color: #0ac266;  
+}
+
+
+/* crazy stuff from internet */
