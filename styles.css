@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 * {
   background-color: plum;
   text-align: center;
@@ -40,12 +41,15 @@ p {
   text-align: justify;
   padding-top: 20px;
   padding-bottom: 20px;
+  /* overflow: scroll; */
 }
 .email {
   /* rotate, scale or skew elements for unique effects */
   transform: rotate(180deg);
 }
 /* add styling to the span tags */
+/* Make the color of the span word red */
+/* Make the text bold */
 span {
   color: red;
   font-weight: bold;
@@ -53,6 +57,7 @@ span {
 }
 /* Add an image */
 /* add a border to the image */
+/* Change the height and width of the image */
 img {
   height: 400px;
   width: 400px;
