@@ -1,0 +1,26 @@
+h1 {
+    color: purple;
+    font-family: fantasy;
+}
+body{
+    background-color: rgb(77, 60, 82);
+    font-family: sans-serif;
+    
+}
+ol{
+    font-weight: bold;
+}
+li{
+    text-align: center;
+    border: 1px solid red; 
+    border-radius: 15px;
+    color: blue;
+    background-color: lightpink;
+}
+h3 {
+text-decoration: underline;
+}
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
