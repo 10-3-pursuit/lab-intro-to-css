@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Courgette&family=Marcellus&family=Orbitron&display=swap');
+
+h1 {
+    font-family: Courgette;
+    color: purple;
+    font-size: 40px;
+    padding-left: 40px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 30px;
+}
+
+ol {
+    font-weight: 600;
+    padding-left: 30px;
+    list-style: inside;
+    list-style-type: decimal;
+    
+}
+
+li {
+    border: 1px solid navy;
+    border-radius: 15px;
+    color: darkorchid;
+    background-color: paleturquoise;
+    text-align: center;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left:10px;
+    font-family: 'Marcellus';
+    font-size: 18px;
+}
+
+h2 {
+    font-family: orbitron;
+    background-color: lightslategray;
+    color: white;
+}
+img {
+    height: 200px;
+    border-radius: 20%;
+
+}
+
+/* 
+1. Change the font of the Contact Me header to be `'Orbitron'`.
+2. Change the color of the Contact Me header background to be `'light slate gray'`.
+3. Change the font of `p` elements to be `'Arvo'` and font size `17px`.
+4. Change image to have `border-radius` of `20%`.
+5. Change font of `h1` to be `Courgette`.
+6. Add `20px padding to h1`
+7. Change every `li` background color to be `pale turquoise`
+8. Change `li` font color to `dark orchid` and border color to be `navy`
+9. Added `10px` left padding to `p` tags, changed font size to `18px`
+10. Change `p` tag font to be `Marcellus`
+ */
