@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
 
 h1 {
+    width: 325px;
     font-family: 'Comic Neue';
     color: rgb(255, 46, 231);
     font-size: 35px;
