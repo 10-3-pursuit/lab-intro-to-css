@@ -1,0 +1,52 @@
+body{
+    font-family: sans-serif;
+    text-align: left;
+    background-color: navajowhite;
+}
+
+h1 {
+    font-family: fantasy;
+    color: rebeccapurple;
+    font-size: 30px;
+    background-color: fuchsia;
+}
+
+h3{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+p{
+    font-style: oblique;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ol{
+    font-weight: bold;
+}
+
+li{
+    text-align: center;
+    color: blue;
+    background-color: rgb(232, 182, 228);
+    border: 1px solid red;
+    border-radius: 50px;
+}
+
+img{
+    height: 200px;
+    border-color: blueviolet;
+    border-radius: 55px;
+
+}
+
+a{
+    font-family: Georgia;
+    color: rgb(174, 90, 51);
+    font-weight: bolder
+}
