@@ -31,11 +31,6 @@ To complete the tests in this lab, you will need to add the following styles. If
 - `h1` tags should have a 30px font size.
 - Lists should have `30px` of padding on the left.
 
-1. Change the font of the Contact Me header to be `'Orbitron'`.
-2. Change the color of the Contact Me header background to be `'light slate gray'`.
-3. Change the font of `p` elements to be `'Arvo'` and font size `17px`.
-4. Change image to have `border-radius` of `20%`.
-5. Change font of `h1` to be `Courgette`.
 
 After you've completed these tasks, continue styling your page to make it look unique. You should add at least _ten additional declarations_ on top of the ones you've made above.
 
