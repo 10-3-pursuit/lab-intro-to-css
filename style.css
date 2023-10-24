@@ -6,10 +6,13 @@ h1 {
     font-family: fantasy;
     color: purple;
     font-size: 30px;
+    background: turquoise;
 }
 
 h3{
     text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rebeccapurple;
 }
 
 p {
@@ -24,6 +27,11 @@ ol {
     font-weight: bold;
 }
 
+ul, ol{
+    background: rgb(40,190, 255);
+    opacity: 70%;
+}
+
 li {
     text-align: center;
     border: 1px solid red;
@@ -32,6 +40,18 @@ li {
     background-color: lightpink;
     padding-left: 30px;
     list-style-position: inside;
+    margin: 10px;
+    opacity: 80%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+li:hover{
+    opacity: 100%;
+    border: 2px dotted blue;
+}
+
+a {
+    text-decoration: none;
 }
 
 img {
