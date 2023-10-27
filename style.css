@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+
+
+body {
+    /* background-color: darkgrey; */
+    font-family: monospace;
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/6d081135-3056-4ea0-abd9-c3f4a7b94f08/d2bzuev-6b755ac9-3278-4a2a-af49-d4ca61c164e4.jpg');
+}
+
+
+
+h1 { 
+    color:darkcyan;
+    font-family: 'Poiret One';
+    font-size: 30px;
+    
+    
+}
+
+ul {
+    list-style-type: none;
+    font-weight: 400;
+    text-align: center;
+    
+
+  }
+
+  ol{
+    text-align: center;
+    list-style-type: none;
+    
+  }
+
+  li{
+    border: 1px solid red;
+    border-radius: 90px;
+    background-color: cadetblue;
+    color: brown;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 400px; 
+    margin: 0 auto; 
+   
+    
+  }
+
+  img {
+
+    display: block; 
+    margin: 0 auto; 
+    height: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    
+    
+  }
+
+
+ h3 {
+
+    text-decoration: underline;
+}
+
+
+p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+ul, ol {
+    padding-left: 30px;
+}
+
+
+/*Animate the pic */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  img {
+    animation: spin 8s linear infinite;
+  }
+  
+  
